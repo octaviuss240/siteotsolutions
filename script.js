@@ -1,5 +1,5 @@
 // Configurações do WhatsApp
-const WHATSAPP_NUMBER = '5531999999999'; // SUBSTITUA pelo seu número com DDI+DDD
+const WHATSAPP_NUMBER = '14504401446'; // SUBSTITUA pelo seu número com DDI+DDD
 const WHATSAPP_MESSAGE = 'Olá! Vim pelo site da OTS e gostaria de saber mais sobre os serviços.';
 
 // Função para redirecionar ao WhatsApp
