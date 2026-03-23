@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OTS | Soluções em T.I para Você e Seu Negócio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>OTS - Tecnologia que funciona, sem dor de cabeça</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header class="header">
         <nav class="navbar">
             <div class="container">
                 <div class="logo">
                     <span class="logo-text">OTS</span>
-                    <span class="logo-subtitle">T.I Descomplicada</span>
+                    <span class="logo-subtitle">SOLUÇÕES TECNOLÓGICAS</span>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="#home">Início</a></li>
-                    <li><a href="#servicos">O que fazemos</a></li>
-                    <li><a href="#diferenciais">Por que nós?</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
-                <button class="btn-contact" onclick="redirectWhatsApp()">Chamar no WhatsApp</button>
+                <button class="btn-contact">Falar com Especialista</button>
                 <div class="menu-toggle">
                     <span></span>
                     <span></span>
@@ -30,233 +32,141 @@
         </nav>
     </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-image">
-    <div class="ots-hero-parceiro">
-        <div class="parceiro-step step-tradicional">
-            <span class="step-icon">🔧</span>
-            <h3>Cuidamos do seu notebook e da sua rede.</h3>
-        </div>
-        <div class="parceiro-step step-inovacao">
-            <span class="step-icon">🤖</span>
-            <h3>Automatizamos com IA e criamos seu site.</h3>
-        </div>
-        <div class="parceiro-step step-resultado">
-            <span class="step-icon">✅</span>
-            <h3>Você foca no seu negócio, nós focamos na T.I.</h3>
-        </div>
-    </div>
-</div>
-    <div class="ots-hero-parceiro">
-        <div class="parceiro-step step-tradicional">
-            <span class="step-icon">🔧</span>
-            <h3>Cuidamos do seu notebook e da sua rede.</h3>
-        </div>
-        <div class="parceiro-step step-inovacao">
-            <span class="step-icon">🤖</span>
-            <h3>Automatizamos com IA e criamos seu site.</h3>
-        </div>
-        <div class="parceiro-step step-resultado">
-            <span class="step-icon">✅</span>
-            <h3>Você foca no seu negócio, nós focamos na T.I.</h3>
-        </div>
-    </div>
-</div>
-            <div class="hero-content">
-                <h1 class="hero-title">Tecnologia que funciona, <span class="highlight">sem dor de cabeça.</span></h1>
-                <p class="hero-subtitle">Do conserto do seu notebook à criação do site da sua empresa. Suporte de T.I, Redes e Inteligência Artificial acessível para pessoas físicas e pequenos negócios.</p>
-                <div class="hero-buttons">
-                    <button class="btn-primary" onclick="redirectWhatsApp()">Fazer um Orçamento Sem Compromisso</button>
-                    <button class="btn-secondary" onclick="document.getElementById('servicos').scrollIntoView({behavior: 'smooth'})">Ver Serviços</button>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="hero-graphic"></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="servicos" class="services">
-        <div class="container">
-            <h2 class="section-title">Como podemos te ajudar hoje?</h2>
-            <p class="section-subtitle">Soluções práticas para o seu dia a dia ou para a sua empresa</p>
-
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🔧</div>
-                    <h3>Manutenção de Computadores</h3>
-                    <p>Seu PC ou notebook está lento ou não liga? Fazemos limpeza, formatação, troca de peças e deixamos sua máquina nova.</p>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">🌐</div>
-                    <h3>Redes e Wi-Fi</h3>
-                    <p>Fim da internet caindo. Montamos e configuramos redes para escritórios, lojas ou residências (até 10 computadores).</p>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">💡</div>
-                    <h3>Consultoria em T.I</h3>
-                    <p>Ajudamos você a escolher o melhor equipamento para comprar, melhorar o desempenho das máquinas e resolver lentidões.</p>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">💻</div>
-                    <h3>Suporte Técnico</h3>
-                    <p>Assistência rápida presencial ou via acesso remoto para resolver problemas no sistema na hora.</p>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">🌍</div>
-                    <h3>Criação de Sites</h3>
-                    <p>Coloque seu negócio na internet com sites modernos, rápidos e fáceis de usar, ideais para atrair mais clientes.</p>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">🤖</div>
-                    <h3>Atendimento com Chatbots</h3>
-                    <p>Pare de perder vendas de madrugada. Criamos robôs de atendimento com Inteligência Artificial para seu WhatsApp.</p>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">📊</div>
-                    <h3>Dashboards e Relatórios</h3>
-                    <p>Transformamos planilhas bagunçadas em painéis visuais fáceis de entender, ajudando você a controlar seu negócio.</p>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">🧠</div>
-                    <h3>Inovação com IA</h3>
-                    <p>Serviços acessíveis usando Inteligência Artificial para facilitar tarefas repetitivas e modernizar sua empresa.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="diferenciais" class="differentials">
-        <div class="container">
-            <h2 class="section-title">Por que escolher a OTS?</h2>
-
-            <div class="differentials-grid">
-                <div class="differential-item">
-                    <div class="diff-number">01</div>
-                    <h3>Sem "Tecniquês"</h3>
-                    <p>Explicamos o problema e a solução de forma simples e transparente. Você sabe exatamente pelo que está pagando.</p>
-                </div>
-
-                <div class="differential-item">
-                    <div class="diff-number">02</div>
-                    <h3>Foco em Pequenos Negócios</h3>
-                    <p>Entendemos a realidade de quem está crescendo. Nossas soluções cabem no seu bolso e resolvem seu problema real.</p>
-                </div>
-
-                <div class="differential-item">
-                    <div class="diff-number">03</div>
-                    <h3>Parceiro Local e Remoto</h3>
-                    <p>Estamos perto de você em Betim para visitas técnicas, ou a um clique de distância via suporte remoto.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="cta-section">
-        <div class="container">
-            <h2>Precisa de ajuda agora?</h2>
-            <p>Mande uma mensagem e conte o que você precisa. Nossa resposta é rápida!</p>
-            <button class="btn-primary" onclick="redirectWhatsApp()">Conversar no WhatsApp</button>
-        </div>
-    </section>
-
-    <section id="contato" class="contact">
-        <div class="container">
-            <h2 class="section-title">Entre em Contato</h2>
-
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <h3>Vamos conversar?</h3>
-                    <p>Tire suas dúvidas, peça uma consultoria ou solicite um orçamento. Estamos à disposição.</p>
-
-                    <div class="contact-item">
-                        <span class="contact-icon">📍</span>
-                        <div>
-                            <strong>Atendimento</strong>
-                            <p>Presencial em Betim/MG e Região<br>Suporte Remoto para todo o Brasil</p>
-                        </div>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Tecnologia que funciona, <span class="highlight">sem dor de cabeça.</span></h1>
+                    <p class="hero-subtitle">Do conserto do seu notebook à criação do site da sua empresa. Suporte de T.I, Redes e Inteligência Artificial acessível para pessoas físicas e pequenos negócios.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">Fazer um Orçamento Sem Compromisso</button>
+                        <button class="btn-secondary">Ver Serviços</button>
                     </div>
-
-                    <div class="contact-item">
-                        <span class="contact-icon">📱</span>
-                        <div>
-                            <strong>WhatsApp</strong>
-                            <p>(31) 9XXXX-XXXX</p>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="ots-hero-parceiro">
+                        <div class="parceiro-step step-tradicional">
+                            <span class="step-icon">🔧</span>
+                            <h3>Cuidamos do seu notebook e da sua rede.</h3>
                         </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <span class="contact-icon">📧</span>
-                        <div>
-                            <strong>E-mail</strong>
-                            <p>contato@ots.com.br</p>
+                        <div class="parceiro-step step-inovacao">
+                            <span class="step-icon">🤖</span>
+                            <h3>Automatizamos com IA e criamos seu site.</h3>
+                        </div>
+                        <div class="parceiro-step step-resultado">
+                            <span class="step-icon">✅</span>
+                            <h3>Você foca no seu negócio, nós focamos na T.I.</h3>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="contact-form">
-                    <h3>Envie uma mensagem</h3>
-                    <form id="contactForm">
-                        <input type="text" placeholder="Seu nome" required>
-                        <input type="tel" placeholder="Telefone ou WhatsApp" required>
+        <section id="servicos" class="services">
+            <div class="container">
+                <h2 class="section-title">Nossas Soluções</h2>
+                <p class="section-subtitle">Tudo o que você precisa em um só lugar</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <span class="service-icon">💻</span>
+                        <h3>Suporte & Manutenção</h3>
+                        <p>Conserto de computadores, notebooks e otimização de sistemas para você não perder tempo.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="service-icon">🌐</span>
+                        <h3>Redes & Wi-Fi</h3>
+                        <p>Instalação e configuração de redes estáveis e seguras para sua casa ou empresa.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="service-icon">🚀</span>
+                        <h3>Sites & Presença Digital</h3>
+                        <p>Criação de sites modernos e profissionais para destacar sua marca no Google.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="service-icon">🧠</span>
+                        <h3>IA para Pequenos Negócios</h3>
+                        <p>Implementação de ferramentas de Inteligência Artificial para automatizar suas tarefas diárias.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Pronto para destravar sua tecnologia?</h2>
+                <p>Pare de brigar com as máquinas. Deixe que a OTS cuida de tudo para você.</p>
+                <button class="btn-primary">Chamar no WhatsApp</button>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Vamos conversar?</h3>
+                        <p>Tire suas dúvidas ou peça um orçamento sem compromisso. Respondemos rápido!</p>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Localização</strong>
+                                <p>Atendimento presencial em Betim e Região / Remoto para todo Brasil.</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💬</span>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p>(31) 9XXXX-XXXX</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <h3>Mande uma mensagem</h3>
+                        <input type="text" placeholder="Seu Nome" required>
+                        <input type="email" placeholder="Seu E-mail" required>
                         <select required>
-                            <option value="">Sobre o que quer falar?</option>
-                            <option value="manutencao">Computador/Notebook com defeito</option>
-                            <option value="redes">Problemas de Internet/Rede</option>
-                            <option value="consultoria">Consultoria e Compras</option>
-                            <option value="website">Criar um Site</option>
-                            <option value="chatbot">Criar um Chatbot</option>
-                            <option value="dashboard">Dashboards/Relatórios</option>
-                            <option value="outro">Outra dúvida</option>
+                            <option value="" disabled selected>O que você precisa?</option>
+                            <option value="manutencao">Manutenção / Notebook</option>
+                            <option value="redes">Redes / Wi-Fi</option>
+                            <option value="site">Criação de Site</option>
+                            <option value="ia">Inteligência Artificial</option>
                         </select>
-                        <textarea placeholder="Explique um pouco como podemos te ajudar..." rows="4" required></textarea>
+                        <textarea placeholder="Conte um pouco sobre o seu problema ou projeto..."></textarea>
                         <button type="submit" class="btn-primary">Enviar Mensagem</button>
                     </form>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
                     <span class="logo-text">OTS</span>
-                    <span class="logo-subtitle">T.I Descomplicada</span>
-                    <p>Tecnologia acessível para pessoas e pequenos negócios.</p>
+                    <p>Sua parceira de tecnologia em Betim. Especialista em suporte humanizado e inovação.</p>
                 </div>
-
                 <div class="footer-links">
-                    <h4>Links Rápidos</h4>
+                    <h4>Navegação</h4>
                     <ul>
                         <li><a href="#home">Início</a></li>
                         <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#diferenciais">Diferenciais</a></li>
                         <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
             </div>
-
             <div class="footer-bottom">
-                <p>&copy; 2026 OTS - Soluções em T.I. Todos os direitos reservados.</p>
+                <p>&copy; 2026 OTS Soluções Tecnológicas. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
 
-    <a href="#" class="whatsapp-float" onclick="redirectWhatsApp(); return false;" title="Fale conosco no WhatsApp">
+    <a href="#" class="whatsapp-float">
         <svg viewBox="0 0 32 32" fill="currentColor">
-            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.923 0-7.435 6.050-13.485 13.485-13.485s13.485 6.050 13.485 13.485c0 7.435-6.050 13.485-13.485 13.485zM21.960 18.735c-0.329-0.164-1.947-0.960-2.248-1.070s-0.521-0.164-0.740 0.164c-0.219 0.329-0.849 1.070-1.040 1.289s-0.384 0.246-0.713 0.082c-0.329-0.164-1.389-0.512-2.645-1.632-0.978-0.872-1.637-1.949-1.829-2.278s-0.021-0.507 0.144-0.671c0.147-0.146 0.329-0.384 0.493-0.576s0.219-0.329 0.329-0.549c0.110-0.219 0.055-0.411-0.027-0.576s-0.740-1.783-1.014-2.441c-0.267-0.640-0.539-0.553-0.740-0.563-0.191-0.009-0.411-0.011-0.630-0.011s-0.576 0.082-0.877 0.411c-0.301 0.329-1.151 1.126-1.151 2.745s1.179 3.185 1.343 3.404c0.164 0.219 2.317 3.537 5.613 4.960 0.784 0.338 1.396 0.541 1.873 0.692 0.788 0.251 1.505 0.216 2.072 0.131 0.632-0.095 1.947-0.796 2.221-1.564s0.274-1.428 0.192-1.564c-0.082-0.137-0.301-0.219-0.630-0.384z"/>
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.488 2.025 7.8l-2.025 7.4 7.575-1.987c2.35 1.487 5.125 2.363 8.087 2.363 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.333c-2.613 0-5.063-0.787-7.113-2.125l-0.513-0.337-4.5 1.175 1.2-4.388-0.375-0.588c-1.288-2.037-2.033-4.45-2.033-7.062 0-7.35 5.983-13.333 13.333-13.333s13.333 5.983 13.333 13.333c0 7.35-5.983 13.333-13.333 13.333z"></path>
         </svg>
     </a>
 
-    <script src="script.js"></script>
 </body>
 </html>
